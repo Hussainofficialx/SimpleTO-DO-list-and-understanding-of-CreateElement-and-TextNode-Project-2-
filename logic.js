@@ -66,6 +66,11 @@ liel.appendChild(licontent);
 // Delete button inside Ul
 buttonel.appendChild(btcontent);
 liel.appendChild(buttonel);
+
+
+ // delete the item/ functionality of button
+   buttonel.addEventListener("click", function() {
+    liel.remove();})
 //Edit Button inside Ul 
 editel.appendChild(editcont);
 liel.appendChild(editel);
@@ -79,9 +84,8 @@ ulel.appendChild(liel);
 
 
 
-   buttonel.addEventListener("click", function() {
-    liel.remove();})
 }
+
 
 
 
