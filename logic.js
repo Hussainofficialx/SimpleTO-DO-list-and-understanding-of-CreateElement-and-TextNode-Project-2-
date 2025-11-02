@@ -74,7 +74,15 @@ liel.appendChild(editel);
 ulel.appendChild(liel);
  todoel.value="";
     todoel.focus();
+
+
+
+
+
+   buttonel.addEventListener("click", function() {
+    liel.remove();})
 }
+
 
 
 
